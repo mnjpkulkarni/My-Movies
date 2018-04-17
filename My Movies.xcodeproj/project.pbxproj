@@ -8,22 +8,59 @@
 
 /* Begin PBXBuildFile section */
 		AEEB95E720535DCE001ECD8D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEEB95E620535DCE001ECD8D /* AppDelegate.swift */; };
-		AEEB95E920535DCE001ECD8D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEEB95E820535DCE001ECD8D /* ViewController.swift */; };
-		AEEB95EC20535DCE001ECD8D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEEB95EA20535DCE001ECD8D /* Main.storyboard */; };
+		AEEB95E920535DCE001ECD8D /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEEB95E820535DCE001ECD8D /* HomeVC.swift */; };
 		AEEB95EF20535DCE001ECD8D /* My_Movies.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AEEB95ED20535DCE001ECD8D /* My_Movies.xcdatamodeld */; };
 		AEEB95F120535DCE001ECD8D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEEB95F020535DCE001ECD8D /* Assets.xcassets */; };
 		AEEB95F420535DCE001ECD8D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEEB95F220535DCE001ECD8D /* LaunchScreen.storyboard */; };
+		AEEB960020536128001ECD8D /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEEB95FF20536128001ECD8D /* MovieCell.swift */; };
+		AEEB960220536151001ECD8D /* MovieData.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEEB960120536151001ECD8D /* MovieData.swift */; };
+		AEF23890205B80BD00CD6512 /* DetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF2388F205B80BD00CD6512 /* DetailVC.swift */; };
+		AEF23892205CAD4E00CD6512 /* ImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF23891205CAD4E00CD6512 /* ImageCell.swift */; };
+		AEF238A4205CBBFC00CD6512 /* CosmosDefaultSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF23894205CBBF900CD6512 /* CosmosDefaultSettings.swift */; };
+		AEF238A5205CBBFC00CD6512 /* CosmosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF23895205CBBF900CD6512 /* CosmosView.swift */; };
+		AEF238A6205CBBFC00CD6512 /* CosmosAccessibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF23896205CBBF900CD6512 /* CosmosAccessibility.swift */; };
+		AEF238A7205CBBFC00CD6512 /* CosmosTouchTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF23897205CBBFA00CD6512 /* CosmosTouchTarget.swift */; };
+		AEF238A8205CBBFC00CD6512 /* CosmosRating.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF23898205CBBFA00CD6512 /* CosmosRating.swift */; };
+		AEF238A9205CBBFC00CD6512 /* RightToLeft.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF23899205CBBFA00CD6512 /* RightToLeft.swift */; };
+		AEF238AA205CBBFC00CD6512 /* StarFillMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF2389A205CBBFA00CD6512 /* StarFillMode.swift */; };
+		AEF238AB205CBBFC00CD6512 /* StarLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF2389B205CBBFA00CD6512 /* StarLayer.swift */; };
+		AEF238AC205CBBFC00CD6512 /* CosmosText.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF2389C205CBBFA00CD6512 /* CosmosText.swift */; };
+		AEF238AD205CBBFC00CD6512 /* CosmosTouch.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF2389D205CBBFA00CD6512 /* CosmosTouch.swift */; };
+		AEF238AE205CBBFC00CD6512 /* CosmosLayerHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF2389E205CBBFA00CD6512 /* CosmosLayerHelper.swift */; };
+		AEF238AF205CBBFC00CD6512 /* CosmosSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF2389F205CBBFB00CD6512 /* CosmosSize.swift */; };
+		AEF238B0205CBBFC00CD6512 /* CosmosLocalizedRating.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF238A0205CBBFB00CD6512 /* CosmosLocalizedRating.swift */; };
+		AEF238B1205CBBFC00CD6512 /* CosmosLayers.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF238A2205CBBFB00CD6512 /* CosmosLayers.swift */; };
+		AEF238B2205CBBFC00CD6512 /* CosmosSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF238A3205CBBFC00CD6512 /* CosmosSettings.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		AEEB95E320535DCE001ECD8D /* My Movies.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "My Movies.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEEB95E620535DCE001ECD8D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AEEB95E820535DCE001ECD8D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		AEEB95EB20535DCE001ECD8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AEEB95E820535DCE001ECD8D /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
 		AEEB95EE20535DCE001ECD8D /* My_Movies.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = My_Movies.xcdatamodel; sourceTree = "<group>"; };
 		AEEB95F020535DCE001ECD8D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AEEB95F320535DCE001ECD8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AEEB95F520535DCE001ECD8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AEEB95FF20536128001ECD8D /* MovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
+		AEEB960120536151001ECD8D /* MovieData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieData.swift; sourceTree = "<group>"; };
+		AEF2388F205B80BD00CD6512 /* DetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailVC.swift; sourceTree = "<group>"; };
+		AEF23891205CAD4E00CD6512 /* ImageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCell.swift; sourceTree = "<group>"; };
+		AEF23894205CBBF900CD6512 /* CosmosDefaultSettings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CosmosDefaultSettings.swift; sourceTree = "<group>"; };
+		AEF23895205CBBF900CD6512 /* CosmosView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CosmosView.swift; sourceTree = "<group>"; };
+		AEF23896205CBBF900CD6512 /* CosmosAccessibility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CosmosAccessibility.swift; sourceTree = "<group>"; };
+		AEF23897205CBBFA00CD6512 /* CosmosTouchTarget.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CosmosTouchTarget.swift; sourceTree = "<group>"; };
+		AEF23898205CBBFA00CD6512 /* CosmosRating.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CosmosRating.swift; sourceTree = "<group>"; };
+		AEF23899205CBBFA00CD6512 /* RightToLeft.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RightToLeft.swift; sourceTree = "<group>"; };
+		AEF2389A205CBBFA00CD6512 /* StarFillMode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StarFillMode.swift; sourceTree = "<group>"; };
+		AEF2389B205CBBFA00CD6512 /* StarLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StarLayer.swift; sourceTree = "<group>"; };
+		AEF2389C205CBBFA00CD6512 /* CosmosText.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CosmosText.swift; sourceTree = "<group>"; };
+		AEF2389D205CBBFA00CD6512 /* CosmosTouch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CosmosTouch.swift; sourceTree = "<group>"; };
+		AEF2389E205CBBFA00CD6512 /* CosmosLayerHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CosmosLayerHelper.swift; sourceTree = "<group>"; };
+		AEF2389F205CBBFB00CD6512 /* CosmosSize.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CosmosSize.swift; sourceTree = "<group>"; };
+		AEF238A0205CBBFB00CD6512 /* CosmosLocalizedRating.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CosmosLocalizedRating.swift; sourceTree = "<group>"; };
+		AEF238A1205CBBFB00CD6512 /* Cosmos.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cosmos.h; sourceTree = "<group>"; };
+		AEF238A2205CBBFB00CD6512 /* CosmosLayers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CosmosLayers.swift; sourceTree = "<group>"; };
+		AEF238A3205CBBFC00CD6512 /* CosmosSettings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CosmosSettings.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +93,66 @@
 		AEEB95E520535DCE001ECD8D /* My Movies */ = {
 			isa = PBXGroup;
 			children = (
+				AEF23893205CBBE300CD6512 /* Cosmos */,
+				AEEB95FE20536102001ECD8D /* Model */,
+				AEEB95FD205360FE001ECD8D /* View */,
+				AEEB95FC205360F9001ECD8D /* Controller */,
 				AEEB95E620535DCE001ECD8D /* AppDelegate.swift */,
-				AEEB95E820535DCE001ECD8D /* ViewController.swift */,
-				AEEB95EA20535DCE001ECD8D /* Main.storyboard */,
 				AEEB95F020535DCE001ECD8D /* Assets.xcassets */,
 				AEEB95F220535DCE001ECD8D /* LaunchScreen.storyboard */,
 				AEEB95F520535DCE001ECD8D /* Info.plist */,
 				AEEB95ED20535DCE001ECD8D /* My_Movies.xcdatamodeld */,
 			);
 			path = "My Movies";
+			sourceTree = "<group>";
+		};
+		AEEB95FC205360F9001ECD8D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				AEEB95E820535DCE001ECD8D /* HomeVC.swift */,
+				AEF2388F205B80BD00CD6512 /* DetailVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		AEEB95FD205360FE001ECD8D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AEEB95FF20536128001ECD8D /* MovieCell.swift */,
+				AEF23891205CAD4E00CD6512 /* ImageCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AEEB95FE20536102001ECD8D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AEEB960120536151001ECD8D /* MovieData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AEF23893205CBBE300CD6512 /* Cosmos */ = {
+			isa = PBXGroup;
+			children = (
+				AEF238A1205CBBFB00CD6512 /* Cosmos.h */,
+				AEF23896205CBBF900CD6512 /* CosmosAccessibility.swift */,
+				AEF23894205CBBF900CD6512 /* CosmosDefaultSettings.swift */,
+				AEF2389E205CBBFA00CD6512 /* CosmosLayerHelper.swift */,
+				AEF238A2205CBBFB00CD6512 /* CosmosLayers.swift */,
+				AEF238A0205CBBFB00CD6512 /* CosmosLocalizedRating.swift */,
+				AEF23898205CBBFA00CD6512 /* CosmosRating.swift */,
+				AEF238A3205CBBFC00CD6512 /* CosmosSettings.swift */,
+				AEF2389F205CBBFB00CD6512 /* CosmosSize.swift */,
+				AEF2389C205CBBFA00CD6512 /* CosmosText.swift */,
+				AEF2389D205CBBFA00CD6512 /* CosmosTouch.swift */,
+				AEF23897205CBBFA00CD6512 /* CosmosTouchTarget.swift */,
+				AEF23895205CBBF900CD6512 /* CosmosView.swift */,
+				AEF23899205CBBFA00CD6512 /* RightToLeft.swift */,
+				AEF2389A205CBBFA00CD6512 /* StarFillMode.swift */,
+				AEF2389B205CBBFA00CD6512 /* StarLayer.swift */,
+			);
+			path = Cosmos;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,7 +216,6 @@
 			files = (
 				AEEB95F420535DCE001ECD8D /* LaunchScreen.storyboard in Resources */,
 				AEEB95F120535DCE001ECD8D /* Assets.xcassets in Resources */,
-				AEEB95EC20535DCE001ECD8D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,23 +226,34 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AEF238A6205CBBFC00CD6512 /* CosmosAccessibility.swift in Sources */,
+				AEF238AF205CBBFC00CD6512 /* CosmosSize.swift in Sources */,
+				AEF238AE205CBBFC00CD6512 /* CosmosLayerHelper.swift in Sources */,
+				AEF238A7205CBBFC00CD6512 /* CosmosTouchTarget.swift in Sources */,
+				AEF238B2205CBBFC00CD6512 /* CosmosSettings.swift in Sources */,
+				AEF238A4205CBBFC00CD6512 /* CosmosDefaultSettings.swift in Sources */,
 				AEEB95EF20535DCE001ECD8D /* My_Movies.xcdatamodeld in Sources */,
-				AEEB95E920535DCE001ECD8D /* ViewController.swift in Sources */,
+				AEF238AC205CBBFC00CD6512 /* CosmosText.swift in Sources */,
+				AEEB95E920535DCE001ECD8D /* HomeVC.swift in Sources */,
+				AEF238AD205CBBFC00CD6512 /* CosmosTouch.swift in Sources */,
+				AEEB960020536128001ECD8D /* MovieCell.swift in Sources */,
+				AEF238B0205CBBFC00CD6512 /* CosmosLocalizedRating.swift in Sources */,
+				AEEB960220536151001ECD8D /* MovieData.swift in Sources */,
+				AEF238B1205CBBFC00CD6512 /* CosmosLayers.swift in Sources */,
 				AEEB95E720535DCE001ECD8D /* AppDelegate.swift in Sources */,
+				AEF23892205CAD4E00CD6512 /* ImageCell.swift in Sources */,
+				AEF238A5205CBBFC00CD6512 /* CosmosView.swift in Sources */,
+				AEF238A9205CBBFC00CD6512 /* RightToLeft.swift in Sources */,
+				AEF238A8205CBBFC00CD6512 /* CosmosRating.swift in Sources */,
+				AEF23890205B80BD00CD6512 /* DetailVC.swift in Sources */,
+				AEF238AA205CBBFC00CD6512 /* StarFillMode.swift in Sources */,
+				AEF238AB205CBBFC00CD6512 /* StarLayer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		AEEB95EA20535DCE001ECD8D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				AEEB95EB20535DCE001ECD8D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		AEEB95F220535DCE001ECD8D /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
